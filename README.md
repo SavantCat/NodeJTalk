@@ -27,6 +27,7 @@ OpenJTalkをNode.jsで使うためのnative addon
 その他
 ------
 Openjtalk_vc_projectsはVC2013のプロジェクトファイルが入っています。32bitで作成されているのでインストールされているnode.jsが64bitの方は注意が必要です一応example/NodeJTalkには32bitのNode.jsの実行ファイルが用意されています。
+Node.jsはUTF-8で文字列の処理をしているそうなのですが辞書ファイルがShift-JISのためaddon内部の処理が上手くいかない場合がありますので文字エンコードを変換するためにオープンソースのc/c++用ライブラリICU(International Components for Unicode)を使いました。
 
 今後の予定
 -----
