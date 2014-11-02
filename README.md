@@ -1,4 +1,4 @@
-NodeJTalk
+NodeJTalk v1.0
 =========
 OpenJTalkをNode.jsで使うためのnative addon  
 **node.js v0.10.28 (32bit) windouws専用**
