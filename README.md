@@ -43,6 +43,6 @@ Node.jsはUTF-8で文字列の処理をしているそうなのですが辞書�
 
 ライセンス
 ----------
-Copyright &copy; 2014 [@Savat_Cat](https://twitter.com/Savant_Cat)
+Copyright &copy; 2014 [@Savat_Cat](https://twitter.com/Savant_Cat)      
 Distributed under the [MIT License][mit].   
 [MIT]: http://www.opensource.org/licenses/mit-license.php
