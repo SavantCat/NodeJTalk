@@ -10,7 +10,8 @@ OpenJTalkをNode.jsで使うためのnative addon
 用意している関数は3つです。
 + setup関数では引数に辞書ファイルのディレクトリ、音声ファイルのディレクトリ、音響サンプリング、出力ファイル名を設定します。
 +   run関数では変換したい文字列を入力します。
-+   end関数は終了処理を行います。引数はなし
++   end関数は終了処理を行います。引数はなし     
+
 #### サンプルコード (nodejtalk.js)####
 ```javascript
     var nodejtalk     = require('./NodeJTalk/nodejtalk');
