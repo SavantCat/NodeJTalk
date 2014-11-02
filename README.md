@@ -13,7 +13,7 @@ OpenJTalkをNode.jsで使うためのnative addon
 +   end関数は終了処理を行います。引数はなし
 #### サンプルコード (nodejtalk.js)####
 ```javascript
-    var nodejtalk     = require('./NodeJTalk/nodejtalk');<br>
+    var nodejtalk     = require('./NodeJTalk/nodejtalk');
     var Dictionary 　 = "./NodeJTalk/dic";  
     var Voice	        = "./NodeJTalk/voice\\mei_happy.htsvoice";  
     var Sampling      = 48000;  
