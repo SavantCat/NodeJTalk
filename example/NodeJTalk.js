@@ -3,7 +3,7 @@ var Dictionary = "./NodeJTalk/dic";
 var Voice	   = "./NodeJTalk/voice\\mei_happy.htsvoice";
 var Sampling   = 48000;
 var file_name  = "voice.wav";
-var text = '我輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。';
+var text = '吾輩は猫である';
 
 //OpenJTalk------------------------------------------
 nodejtalk.setup(Dictionary,Voice,Sampling,file_name);
