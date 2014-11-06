@@ -16,7 +16,7 @@ OpenJTalkをNode.jsで使うためのnative addon
 ```javascript
     var nodejtalk     = require('./NodeJTalk/nodejtalk');
     var Dictionary 　 = "./NodeJTalk/dic";  
-    var Voice	        = "./NodeJTalk/voice\\mei_happy.htsvoice";  
+    var Voice	      = "./NodeJTalk/voice\\mei_happy.htsvoice";  
     var Sampling      = 48000;  
     var file_name     = "voice.wav";  
     var text          = 'ほげほげ'; 
